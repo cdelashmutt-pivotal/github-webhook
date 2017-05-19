@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 /**
  * Created by cdelashmutt on 5/19/17.
  */
-@Component
+//@Component
 public class BadHealthIndicator implements HealthIndicator {
 
 	//Just return a down status automatically
