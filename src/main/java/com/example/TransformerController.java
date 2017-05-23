@@ -34,7 +34,7 @@ public class TransformerController {
 	public void simulateInitialState() {
 		DATABASE.add(new Pojo("test1", "test1/test1", "hook", "updated"));
 		DATABASE.add(new Pojo("test2", "test2/test2", "issue", "created"));
-		//DATABASE.add(new Pojo("chrisd", "cdelashmutt-pivotal/github-webhook", "hook", "updated"));
+		DATABASE.add(new Pojo("chrisd", "cdelashmutt-pivotal/github-webhook", "hook", "updated"));
 	}
 
 	@RequestMapping(value = "/", method = RequestMethod.POST)
